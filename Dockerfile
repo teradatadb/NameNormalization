@@ -1,2 +1,2 @@
 FROM python:3.6-slim
-RUN apt-get upd
+RUN apt-get update &
