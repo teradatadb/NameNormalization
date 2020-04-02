@@ -1,3 +1,3 @@
 FROM python:3.6-slim
 RUN apt-get update && \
-    pip i
+    pip ins
