@@ -3,4 +3,4 @@ RUN apt-get update && \
     pip install --upgrade pip && \
     apt-get install build-essential -y
 COPY . /usr/app/
-EXPOS
+EXPOSE 85
