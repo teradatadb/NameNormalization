@@ -4,4 +4,4 @@ RUN apt-get update && \
     apt-get install build-essential -y
 COPY . /usr/app/
 EXPOSE 8501
-WORKDIR 
+WORKDIR /
