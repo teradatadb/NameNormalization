@@ -5,4 +5,4 @@ RUN apt-get update && \
 COPY . /usr/app/
 EXPOSE 8501
 WORKDIR /usr/app/
-RUN pip insta
+RUN pip install 
