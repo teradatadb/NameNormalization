@@ -6,3 +6,5 @@ import base64
 from copyright import CopyRight
 
 st.title("Copyright Name Finder")
+
+sentence = st.text_input("Input Your Text Here :")
