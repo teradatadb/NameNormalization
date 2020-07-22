@@ -8,3 +8,5 @@ from copyright import CopyRight
 st.title("Copyright Name Finder")
 
 sentence = st.text_input("Input Your Text Here :")
+
+st.set_option('deprecation.showfileUploaderEncoding', False)
