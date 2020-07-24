@@ -15,3 +15,5 @@ data = st.file_uploader("Upload a Dataset", type=["csv","txt"])
 
 
 def main():
+
+    def download_file(df):
