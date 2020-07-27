@@ -22,3 +22,5 @@ def main():
         in:  dataframe
         out: href string
         """
+        csv = df.to_csv(index=False)
+        b64 = base64.b64encode(
