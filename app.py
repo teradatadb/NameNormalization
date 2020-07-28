@@ -32,3 +32,4 @@ def main():
         df3 = {'name' : [sentence]}
         df3 = pd.DataFrame(df3)
         df3 = CopyRight(df3)
+        st.dataframe(df3)
