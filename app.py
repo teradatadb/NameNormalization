@@ -33,3 +33,6 @@ def main():
         df3 = pd.DataFrame(df3)
         df3 = CopyRight(df3)
         st.dataframe(df3)
+
+    if data is not None:
+        df = pd.read_csv(data, encoding = 'utf-8')
