@@ -36,3 +36,4 @@ def main():
 
     if data is not None:
         df = pd.read_csv(data, encoding = 'utf-8')
+        st.dataframe(df.head())
