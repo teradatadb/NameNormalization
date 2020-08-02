@@ -41,3 +41,7 @@ def main():
         if(st.button("Copyright Names")):
             df2 = CopyRight(df)
             st.dataframe(df2)
+            st.markdown(download_file(df2), unsafe_allow_html = True)   
+
+if __name__=='__main__':
+    main()
