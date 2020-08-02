@@ -39,3 +39,5 @@ def main():
         st.dataframe(df.head())
 
         if(st.button("Copyright Names")):
+            df2 = CopyRight(df)
+            st.dataframe(df2)
