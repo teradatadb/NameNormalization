@@ -7,3 +7,7 @@ from scipy.sparse import csr_matrix
 import sparse_dot_topn.sparse_dot_topn as ct
 
 def CopyRight(data):
+
+    def ngrams(string, n=3):
+        string = fix_text(string)  # fix text encoding issues
+        # remove non ascii chars
