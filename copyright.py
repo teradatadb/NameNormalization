@@ -17,3 +17,5 @@ def CopyRight(data):
         rx = '[' + re.escape(''.join(chars_to_remove)) + ']'
         string = re.sub(rx, '', string)  # remove the list of chars defined above
         string = string.replace('&', 'and')
+        string = string.replace(',', ' ')
+        string = string.replace('-', ' ')
