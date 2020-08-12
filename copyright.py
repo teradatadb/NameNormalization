@@ -14,3 +14,5 @@ def CopyRight(data):
         string = string.encode("ascii", errors="ignore").decode()
         string = string.lower()  # make lower case
         chars_to_remove = [")", "(", ".", "|", "[", "]", "{", "}", "'"]
+        rx = '[' + re.escape(''.join(chars_to_remove)) + ']'
+        string = re.sub(rx, '', string)  # remove the list of chars defined above
