@@ -19,3 +19,5 @@ def CopyRight(data):
         string = string.replace('&', 'and')
         string = string.replace(',', ' ')
         string = string.replace('-', ' ')
+        string = string.replace('ToucheTohmatsu', ' ')
+        string = string.title()  # normalise case - capital at start of each word
