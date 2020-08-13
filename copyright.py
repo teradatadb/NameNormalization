@@ -21,3 +21,5 @@ def CopyRight(data):
         string = string.replace('-', ' ')
         string = string.replace('ToucheTohmatsu', ' ')
         string = string.title()  # normalise case - capital at start of each word
+        # get rid of multiple spaces and replace with a single space
+        string = re.sub(' +', ' ', string).strip()
