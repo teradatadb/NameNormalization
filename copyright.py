@@ -23,3 +23,6 @@ def CopyRight(data):
         string = string.title()  # normalise case - capital at start of each word
         # get rid of multiple spaces and replace with a single space
         string = re.sub(' +', ' ', string).strip()
+        string = ' ' + string + ' '  # pad names for ngrams...
+        string = re.sub(r'[,-./]|\sBD', r'', string)
+        string = string.replace('Corp', ' ')
