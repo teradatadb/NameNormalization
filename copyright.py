@@ -26,3 +26,7 @@ def CopyRight(data):
         string = ' ' + string + ' '  # pad names for ngrams...
         string = re.sub(r'[,-./]|\sBD', r'', string)
         string = string.replace('Corp', ' ')
+        string = string.replace('Corporation', ' ')
+        string = string.replace('Holding', ' ')
+        string = string.replace('Holdings', ' ')
+        string = string.replace('Ltd', ' ')
