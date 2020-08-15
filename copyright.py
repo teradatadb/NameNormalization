@@ -36,3 +36,7 @@ def CopyRight(data):
         string = string.replace('Co', ' ')
         string = string.replace('Company', ' ')
         string = string.replace('US', ' ')
+        string = string.replace('United States', ' ')
+        string = string.replace('International', ' ')
+        string = string.replace('Inc', ' ')
+        string = string.replace('AB', ' ')
