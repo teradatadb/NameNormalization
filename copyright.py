@@ -32,3 +32,4 @@ def CopyRight(data):
         string = string.replace('Ltd', ' ')
         string = string.replace('LTD', ' ')
         string = string.replace('LLC', ' ')
+        string = string.replace('LLP', ' ')
