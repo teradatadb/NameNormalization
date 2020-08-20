@@ -45,3 +45,7 @@ def CopyRight(data):
         string = string.replace('AG', ' ')
         string = string.replace('AG & Co', ' ')
         string = string.replace('Oyj', ' ')
+        string = string.replace('A/S', ' ')
+        string = string.replace('Public Co', ' ')
+        string = string.replace('Incorporated', ' ')
+        string = string.replace('Plc', ' ')
