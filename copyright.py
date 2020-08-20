@@ -40,3 +40,4 @@ def CopyRight(data):
         string = string.replace('International', ' ')
         string = string.replace('Inc', ' ')
         string = string.replace('AB', ' ')
+        string = string.replace('SAB', ' ')
