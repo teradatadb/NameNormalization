@@ -51,3 +51,5 @@ def CopyRight(data):
         string = string.replace('Plc', ' ')
         string = string.replace('S.A.', ' ')
         string = string.replace('SA', ' ')
+        string = string.replace('AG', ' ')
+        string = string.replace('NV', ' ')
