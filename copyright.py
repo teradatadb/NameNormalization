@@ -53,3 +53,6 @@ def CopyRight(data):
         string = string.replace('SA', ' ')
         string = string.replace('AG', ' ')
         string = string.replace('NV', ' ')
+        string = string.replace('ToucheTohmatsu', ' ')
+        string = string.replace('Companies', ' ')
+        ngrams = zip(*[string[i:] for i in range(n)])
