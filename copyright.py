@@ -60,3 +60,5 @@ def CopyRight(data):
 
     from sklearn.feature_extraction.text import TfidfVectorizer
     clean_org_names = pd.read_excel(
+                'data.xlsx')
+    cleanlist = list(clean_org_names.name)
