@@ -57,3 +57,6 @@ def CopyRight(data):
         string = string.replace('Companies', ' ')
         ngrams = zip(*[string[i:] for i in range(n)])
         return [''.join(ngram) for ngram in ngrams]
+
+    from sklearn.feature_extraction.text import TfidfVectorizer
+    clean_org_names = pd.read_excel(
