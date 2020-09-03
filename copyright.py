@@ -65,3 +65,7 @@ def CopyRight(data):
     data = data[~data['name'].isin(cleanlist)]
     #clean_org_names = clean_org_names.iloc[:, 2:7]
     final = pd.concat([clean_org_names[['name']], data[['name']]],
+                        ignore_index=True, axis=0)
+    company_names = final['name'].unique().astype('U')
+    #company_names = final['name'].astype('U')
+    vectorizer = TfidfVectorizer(min_df=1, analyzer=ngrams)
