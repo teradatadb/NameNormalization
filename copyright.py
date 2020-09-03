@@ -69,3 +69,4 @@ def CopyRight(data):
     company_names = final['name'].unique().astype('U')
     #company_names = final['name'].astype('U')
     vectorizer = TfidfVectorizer(min_df=1, analyzer=ngrams)
+    tf_idf_matrix = vectorizer.fit_transform(company_names)
