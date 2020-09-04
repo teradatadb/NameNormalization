@@ -71,3 +71,5 @@ def CopyRight(data):
     vectorizer = TfidfVectorizer(min_df=1, analyzer=ngrams)
     tf_idf_matrix = vectorizer.fit_transform(company_names)
 
+
+    def awesome_cossim_top(A, B, ntop, lower_bound=0):
