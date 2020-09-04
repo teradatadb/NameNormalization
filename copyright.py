@@ -73,3 +73,6 @@ def CopyRight(data):
 
 
     def awesome_cossim_top(A, B, ntop, lower_bound=0):
+        # force A and B as a CSR matrix.
+        # If they have already been CSR, there is no overhead
+        A = A.tocsr()
