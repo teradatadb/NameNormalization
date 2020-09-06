@@ -76,3 +76,5 @@ def CopyRight(data):
         # force A and B as a CSR matrix.
         # If they have already been CSR, there is no overhead
         A = A.tocsr()
+        B = B.tocsr()
+        M, _ = A.shape
