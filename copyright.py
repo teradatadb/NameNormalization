@@ -85,3 +85,4 @@ def CopyRight(data):
         nnz_max = M*ntop
 
         indptr = np.zeros(M+1, dtype=idx_dtype)
+        indices = np.zeros(nnz_max, dtype=idx_dtype)
