@@ -89,3 +89,4 @@ def CopyRight(data):
         data = np.zeros(nnz_max, dtype=A.dtype)
 
         ct.sparse_dot_topn(
+            M, N, np.asarray(A.indptr, dtype=idx_dtype),
