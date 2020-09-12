@@ -86,3 +86,6 @@ def CopyRight(data):
 
         indptr = np.zeros(M+1, dtype=idx_dtype)
         indices = np.zeros(nnz_max, dtype=idx_dtype)
+        data = np.zeros(nnz_max, dtype=A.dtype)
+
+        ct.sparse_dot_topn(
