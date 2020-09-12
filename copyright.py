@@ -78,3 +78,10 @@ def CopyRight(data):
         A = A.tocsr()
         B = B.tocsr()
         M, _ = A.shape
+        _, N = B.shape
+
+        idx_dtype = np.int32
+
+        nnz_max = M*ntop
+
+        indptr = np.zeros(M+1, dtype=idx_dtype)
