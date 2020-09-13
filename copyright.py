@@ -94,3 +94,5 @@ def CopyRight(data):
             A.data,
             np.asarray(B.indptr, dtype=idx_dtype),
             np.asarray(B.indices, dtype=idx_dtype),
+            B.data,
+            ntop,
