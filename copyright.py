@@ -90,3 +90,7 @@ def CopyRight(data):
 
         ct.sparse_dot_topn(
             M, N, np.asarray(A.indptr, dtype=idx_dtype),
+            np.asarray(A.indices, dtype=idx_dtype),
+            A.data,
+            np.asarray(B.indptr, dtype=idx_dtype),
+            np.asarray(B.indices, dtype=idx_dtype),
