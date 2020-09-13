@@ -98,3 +98,5 @@ def CopyRight(data):
             ntop,
             lower_bound,
             indptr, indices, data)
+
+        return csr_matrix((data, indices, indptr), shape=(M, N))
