@@ -100,3 +100,4 @@ def CopyRight(data):
             indptr, indices, data)
 
         return csr_matrix((data, indices, indptr), shape=(M, N))
+
