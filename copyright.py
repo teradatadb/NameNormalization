@@ -101,3 +101,7 @@ def CopyRight(data):
 
         return csr_matrix((data, indices, indptr), shape=(M, N))
 
+
+    matches = awesome_cossim_top(
+        tf_idf_matrix, tf_idf_matrix.transpose(), 10)
+
