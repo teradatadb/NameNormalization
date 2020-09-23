@@ -105,3 +105,6 @@ def CopyRight(data):
     matches = awesome_cossim_top(
         tf_idf_matrix, tf_idf_matrix.transpose(), 10)
 
+
+    def get_matches_df(sparse_matrix, name_vector, top=100):
+        non_zeros = sparse_matrix.nonzero()
