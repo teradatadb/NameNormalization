@@ -108,3 +108,11 @@ def CopyRight(data):
 
     def get_matches_df(sparse_matrix, name_vector, top=100):
         non_zeros = sparse_matrix.nonzero()
+
+        sparserows = non_zeros[1]
+        sparsecols = non_zeros[0]
+
+        if top:
+            nr_matches = top
+        else:
+            nr_matches = sparserows.size
