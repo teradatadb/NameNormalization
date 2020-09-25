@@ -116,3 +116,5 @@ def CopyRight(data):
             nr_matches = top
         else:
             nr_matches = sparserows.size
+
+        left_side = np.empty([nr_matches], dtype=object)
