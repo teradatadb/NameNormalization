@@ -119,3 +119,4 @@ def CopyRight(data):
 
         left_side = np.empty([nr_matches], dtype=object)
         right_side = np.empty([nr_matches], dtype=object)
+        similarity = np.zeros(nr_matches)
