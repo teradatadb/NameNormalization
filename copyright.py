@@ -122,3 +122,6 @@ def CopyRight(data):
         similarity = np.zeros(nr_matches)
 
         for index in range(0, nr_matches):
+            left_side[index] = name_vector[sparserows[index]]
+            right_side[index] = name_vector[sparsecols[index]]
+            similarity[index] = sparse_matrix.data[index]
