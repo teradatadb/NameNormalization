@@ -128,3 +128,5 @@ def CopyRight(data):
 
         return pd.DataFrame({'Name': left_side,
                             'Match': right_side,
+                            'similarity': similarity})
+    
