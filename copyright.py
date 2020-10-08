@@ -125,3 +125,6 @@ def CopyRight(data):
             left_side[index] = name_vector[sparserows[index]]
             right_side[index] = name_vector[sparsecols[index]]
             similarity[index] = sparse_matrix.data[index]
+
+        return pd.DataFrame({'Name': left_side,
+                            'Match': right_side,
