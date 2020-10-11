@@ -130,3 +130,5 @@ def CopyRight(data):
                             'Match': right_side,
                             'similarity': similarity})
     
+    count = matches.nonzero()
+    counter = count[1]
