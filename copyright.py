@@ -134,3 +134,6 @@ def CopyRight(data):
     counter = count[1]
     
     matches_df = get_matches_df(matches, company_names, top = counter.size)
+
+    matches_df = matches_df[matches_df['similarity']< 0.9999999999999]  # Remove all exact matches
+    list_data = list(data.name) # Standard Name List
