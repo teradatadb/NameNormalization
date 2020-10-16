@@ -132,3 +132,5 @@ def CopyRight(data):
     
     count = matches.nonzero()
     counter = count[1]
+    
+    matches_df = get_matches_df(matches, company_names, top = counter.size)
