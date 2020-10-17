@@ -140,3 +140,7 @@ def CopyRight(data):
     matches_df = matches_df[matches_df['Name'].isin(list_data)]
     matches_df = matches_df[~matches_df['Match'].isin(list_data)]
     idx = matches_df.groupby(['Name'])['similarity'].transform(max) == matches_df['similarity']
+    matches_df = matches_df[idx]
+    matches_df = matches_df.reset_index(drop = True)
+    matches_df = matches_df.drop(['similarity'], axis = 1)
+    return matches_df
