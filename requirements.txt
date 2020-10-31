@@ -1,4 +1,4 @@
 pandas
 ftfy
 sklearn
-xlr
+xlrd
