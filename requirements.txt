@@ -2,4 +2,4 @@ pandas
 ftfy
 sklearn
 xlrd
-numpy>
+numpy>=1.16
