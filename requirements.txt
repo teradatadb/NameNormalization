@@ -2,4 +2,4 @@ pandas
 ftfy
 sklearn
 xlrd
-nu
+numpy>
