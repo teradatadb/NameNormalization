@@ -3,4 +3,4 @@ ftfy
 sklearn
 xlrd
 numpy>=1.16.6
-setuptools>=45
+setuptools>=45.2
