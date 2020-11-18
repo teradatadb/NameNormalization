@@ -4,4 +4,4 @@ sklearn
 xlrd
 numpy>=1.16.6
 setuptools>=45.2.0
-Cython>=0.2
+Cython>=0.29
