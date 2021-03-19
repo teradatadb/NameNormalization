@@ -1,2 +1,2 @@
 # NameNormalization
-Natural
+Natural L
