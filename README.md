@@ -1,2 +1,2 @@
 # NameNormalization
-Natural Lan
+Natural Lang
