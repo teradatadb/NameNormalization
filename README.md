@@ -1,2 +1,2 @@
 # NameNormalization
-Natural Language Proces
+Natural Language Processing
