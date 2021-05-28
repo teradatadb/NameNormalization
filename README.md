@@ -1,2 +1,2 @@
 # NameNormalization
-Natural Language Processing too
+Natural Language Processing tool for 
