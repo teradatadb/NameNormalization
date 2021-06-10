@@ -1,2 +1,2 @@
 # NameNormalization
-Natural Language Processing tool for standardiz
+Natural Language Processing tool for standardizin
