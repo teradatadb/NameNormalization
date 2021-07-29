@@ -1,2 +1,2 @@
 # NameNormalization
-Natural Language Processing tool for standardizing company names t
+Natural Language Processing tool for standardizing company names to
