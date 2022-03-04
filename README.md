@@ -5,4 +5,4 @@ Natural Language Processing tool for standardizing company names to a standard f
 This project aims to standardize a list of similar company names (for example: JPMC, JPMorgan, J.P.Morgan Chase) to their standard form (e.g., JPMorgan Chase & Co.). Traditional string matching approaches like Levenshtein Distance may be slow, hence NLP is utilized for efficiency.
 
 # Installation
-1. Clone or download this re
+1. Clone or download this rep
