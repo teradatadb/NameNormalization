@@ -6,4 +6,4 @@ This project aims to standardize a list of similar company names (for example: J
 
 # Installation
 1. Clone or download this repository.
-2. Run pip install -r requirements.txt in
+2. Run pip install -r requirements.txt insid
