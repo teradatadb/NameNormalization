@@ -10,4 +10,4 @@ This project aims to standardize a list of similar company names (for example: J
 3. The 'data.xlsx' file, included in this repository, contains a list of standard company names for matching.
 4. Use `streamlit run app.py` to start the application.
 
-As it operates, the tool maps individual or mu
+As it operates, the tool maps individual or mult
