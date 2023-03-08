@@ -11,3 +11,5 @@ This project aims to standardize a list of similar company names (for example: J
 4. Use `streamlit run app.py` to start the application.
 
 As it operates, the tool maps individual or multiple company names to the corresponding standard name. If a company name is not included in the list, it can be manually added to achieve continuous optimization.
+
+# R
