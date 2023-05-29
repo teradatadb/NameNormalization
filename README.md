@@ -15,4 +15,4 @@ As it operates, the tool maps individual or multiple company names to the corres
 # References
 Links to related resources and references are provided:
 1. [Super Fast String Matching](https://bergvca.github.io/2017/10/14/super-fast-string-matching.html)
-2. [sparse_dot_topn](https://github.com/
+2. [sparse_dot_topn](https://github.com/in
