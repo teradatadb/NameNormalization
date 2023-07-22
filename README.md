@@ -16,4 +16,4 @@ As it operates, the tool maps individual or multiple company names to the corres
 Links to related resources and references are provided:
 1. [Super Fast String Matching](https://bergvca.github.io/2017/10/14/super-fast-string-matching.html)
 2. [sparse_dot_topn](https://github.com/ing-bank/sparse_dot_topn)
-3. [Boosting the selection of the most similar entities in large scale datasets](https://medium.com/wbaa/https-medium-
+3. [Boosting the selection of the most similar entities in large scale datasets](https://medium.com/wbaa/https-medium-c
