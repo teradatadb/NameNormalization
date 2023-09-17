@@ -18,4 +18,4 @@ Links to related resources and references are provided:
 2. [sparse_dot_topn](https://github.com/ing-bank/sparse_dot_topn)
 3. [Boosting the selection of the most similar entities in large scale datasets](https://medium.com/wbaa/https-medium-com-ingwbaa-boosting-selection-of-the-most-similar-entities-in-large-scale-datasets-450b3242e618)
 
-Feel free to reach out for any quest
+Feel free to reach out for any questi
